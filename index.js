@@ -2,7 +2,7 @@
 function theBeatlesPlay(musicians,instruments){
   var combination = [];
   for(let i=0; i<musicians.length; i++){
-    combination[i]=musicians[i].concat(" plays ").concat(instruments[i])
+    combination[i]=musicians[i].concat(" plays ").concat(instruments[i]);
   }
   return combination
 }
@@ -10,7 +10,7 @@ function theBeatlesPlay(musicians,instruments){
 function johnLennonFacts(facts){
   var output = facts;
   for(let i=0; i<facts.length; i++){
-    output[i]=facts[i].concat("!!!")
+    output[i]=facts[i].concat("!!!");
   }
   return output
 }
@@ -18,7 +18,7 @@ function johnLennonFacts(facts){
 function iLoveTheBeatles(number){
   var output = [];
   do {
-    output.push("I love the Beatles!")
+    output.push("I love the Beatles!");
     number--;
   } while(number < 15)
   return output
