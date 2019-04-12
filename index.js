@@ -21,4 +21,5 @@ function iLoveTheBeetles(number){
     output.push("I love the Beetles!")
     number--;
   } while(number < 15)
+  return output
 }
