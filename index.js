@@ -15,4 +15,6 @@ function johnLennonFacts(facts){
   return output
 }
 
-iLoveTheBeetles
+function iLoveTheBeetles(){
+  
+}
