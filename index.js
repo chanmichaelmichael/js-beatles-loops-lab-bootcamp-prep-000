@@ -8,8 +8,9 @@ function theBeetlesPlay(musicians,instruments){
 }
 
 function johnLennonFacts(facts){
+  output = facts;
   for(let i=0; i<facts.length; i++){
-    facts[i]=facts[i].concat("!!!")
+    output[i]=facts[i].concat("!!!")
   }
-  return facts
+  return output
 }
