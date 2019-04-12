@@ -7,4 +7,6 @@ function theBeetlesPlay(musicians,instruments){
   return combination
 }
 
-function johnLennonFacts
+function johnLennonFacts(facts){
+  
+}
