@@ -4,4 +4,7 @@ function theBeetlesPlay(musicians,instruments){
   for(let i=0, i<musicians.length; i++){
     combination[i]=musicians[i].concat(" plays ").concat(instruments[i])
   }
+  return combination
 }
+
+function johnLennonFacts
