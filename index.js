@@ -17,4 +17,7 @@ function johnLennonFacts(facts){
 
 function iLoveTheBeetles(){
   var output = [];
+  do {
+    output.push("I love the Beetles!")
+  } while()
 }
